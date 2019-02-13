@@ -1224,12 +1224,12 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
-  color: #fff;
+  background: #fff;
+  color: #000;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
-  border-radius: 50%;
+  border-radius: 30%;
   text-align: center;
   width: 36px;
   height: 36px;
@@ -1237,8 +1237,36 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
   color: #fff;
+}
+
+#footer .footer-top .social-links .facebook:hover {
+  background: #3b5999;
+}
+
+#footer .footer-top .social-links .twitter:hover {
+  background: #4A9CEC;
+}
+
+#footer .footer-top .social-links .instagram:hover {
+  background: #D6274D;
+}
+
+#footer .footer-top .social-links .linkedin:hover {
+  background: #1260A2;
+}
+
+#footer .footer-top .social-links .google:hover {
+  background: #CE332A;
+}
+#footer .footer-top .social-links .youtube:hover {
+  background: #ff0000;
+}
+#footer .footer-top .social-links .twitch:hover {
+  background: #6441a4;
+}
+#footer .footer-top .social-links .github:hover {
+  background: #000;
 }
 
 #footer .footer-top h4 {
