@@ -201,8 +201,8 @@ h6 {
   text-decoration: underline;
 }
 
-#intro .intro-info .btn-get-started,
-#intro .intro-info .btn-services {
+#intro .introz .btn-get-started,
+#intro .introz .btn-services {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -215,23 +215,23 @@ h6 {
   color: #fff;
 }
 
-#intro .intro-info .btn-get-started {
+#intro .introz .btn-get-started {
   background: #007bff;
   border: 2px solid #007bff;
   color: #fff;
 }
 
-#intro .intro-info .btn-get-started:hover {
+#intro .introz .btn-get-started:hover {
   background: none;
   border-color: #fff;
   color: #fff;
 }
 
-#intro .intro-info .btn-services {
+#intro .introz .btn-services {
   border: 2px solid #fff;
 }
 
-#intro .intro-info .btn-services:hover {
+#intro .introz .btn-services:hover {
   background: #007bff;
   border-color: #007bff;
   color: #fff;
