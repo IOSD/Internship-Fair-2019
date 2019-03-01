@@ -13,6 +13,8 @@ body {
   background: #fff;
   color: #444;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 a {
@@ -1445,5 +1447,13 @@ h6 {
 @media (max-width: 574px) {
   #intro {
     padding: 100px 0 20px 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  #logo-media {
+    margin-left: calc(35% - 337px);
+  }
+  #nav-media {
+    margin-right: calc(30% - 288px);
   }
 }
