@@ -202,6 +202,7 @@ h6 {
 }
 
 #intro .introz .btn-get-started,
+#why-us .btn-services,
 #intro .introz .btn-services {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -227,11 +228,17 @@ h6 {
   color: #fff;
 }
 
-#intro .introz .btn-services {
+#intro .introz .btn-services,
+#why-us .btn-services {
   border: 2px solid #fff;
 }
 
 #intro .introz .btn-services:hover {
+  background: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+#why-us .btn-services:hover {
   background: #007bff;
   border-color: #007bff;
   color: #fff;

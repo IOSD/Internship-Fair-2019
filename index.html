@@ -32,11 +32,17 @@
     #stipend:before {
       content: "₹";
     }
+    #count:after {
+      content: "+";
+    }
     #reach:after {
       content: "K+";
     }
     #percent:after {
       content: "%";
+    }
+    #stake:after {
+      content: " Lakh+";
     }
 
   </style>
@@ -52,8 +58,7 @@
     <div class="container">
 
       <div class="logo float-left logopic">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        
         <a href="#intro" class="scrollto"><img src="img/IF Rectangle logo.png" alt="logo" class="img-fluid"></a>
       </div>
 
@@ -62,10 +67,10 @@
           <li class="active"><a href="#intro">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#why-us">Internship Fair 2018</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#services">Profiles</a></li>
           <li><a href="#clients">Recruiters</a></li>
           <li><a href="#team">Sponsors</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
           <!--<li class="drop-down"><a href="#">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -99,9 +104,9 @@
 
       <div style=" padding-top: 0px;" class="introz">
         <center>
-        <h2 style="font-weight: 700; font-size: calc(12px + 2.5vw); color: #fff;">North India's<span style="font-size: calc(12px + 5vw);"> LARGEST </span><img style="margin-top: -2.8%; width: 23.5%; height: auto;" src="img/IF Rectangle logo.png"><span style="font-size: calc(12px + 1.3vw);"><br>Netaji Subas University of Technology (formerly NSIT)</span></h2><br>
+        <h2 style="font-weight: 700; font-size: calc(12px + 2.5vw); color: #fff;">North India's<span style="font-size: calc(12px + 5vw);"> LARGEST </span><img style="margin-top: -2.8%; width: calc(19% + 60px); height: auto;" src="img/IF Rectangle logo.png"><span style="font-size: calc(12px + 1.3vw);"><br>Netaji Subas University of Technology (formerly NSIT)</span></h2><br>
         <div>
-          <a href="https://paytm.com/events/delhi/other/internship-fair-nsut-formerly-nsit/184798" class="btn-get-started scrollto">Grab Your Passes</a>
+          <a href="https://goo.gl/HgTju8" class="btn-get-started scrollto">Grab Your Passes</a>
           <a href="https://goo.gl/forms/mEo6Ta1Vo4p3368i1" class="btn-services scrollto">Recruit at Internship Fair</a>
         </div>
       </center>
@@ -119,19 +124,30 @@
       <div class="container">
 
         <header class="section-header">
-          <h3 style="font-size: calc(22px + 1.0vw);">About Us</h3>
-          <p>India's Leading Open Source development based student run Organisation.</p>
+          <h3 style="font-size: calc(22px + 1.0vw);">About Internship Fair @ NSUT</h3>
+          <p> North India's Largest Internship Fair </p>
         </header>
 
         <div class="row about-container">
 
-          <div class="col-lg-6 content order-lg-1 order-2">
+          <div class="col-lg-6 order-lg-0 order-2 content">
             <p>
               This Internship Fair is our endeavour to bridge the gap between students seeking industrial training and start-ups needing the skill set of talented students. International Organisation of Software Developers hosts the largest Internship fair of North India, attracting talent pool of students from all major institutes. More than 50 Companies will be recruiting at Internship Fair @ NSUT with stipend at stake ranging over 55 Lakhs with Highest Stipend offered 80K. 
+              <br>
+              It is a great opportunity for any organisation to hire the best-skilled interns from different streams and colleges. The fair will be a one-stop shop for all talent- technical or non-technical along with providing great networking opportunities. 
             
-            
-              <h1 id="interenship" style="font-size: calc(22px + 1.2vw);">INTERNSHIP FAIR</h1>
             </p>
+
+          </div>
+
+          <div class="col-lg-6 order-lg-0 order-1 background wow fadeInUp">
+            <img style="margin-top: -30px;" src="img/intro-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row about-container">
+
+          <div class="col-lg-3">
 
             <div class="icon-box wow fadeInUp">
               <div class="icon"><i class="fa fa-star"></i></div>
@@ -139,11 +155,19 @@
               <p class="description">30th March 2019</p>
             </div>
 
+          </div>
+
+          <div class="col-lg-3">
+
             <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-star"></i></div>
               <h4 class="title"><a href="#">TIME</a></h4>
               <p class="description">9:00 a.m.</p>
             </div>
+
+          </div>
+
+          <div class="col-lg-6">
 
             <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-star"></i></div>
@@ -152,15 +176,12 @@
             </div>
 
           </div>
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-            <img src="img/intro-img.svg" class="img-fluid" alt="">
-          </div>
         </div>
       </div>
     </section>
 
     <!--==========================
-      Why Us Section
+      Internship Fair @ DTU
     ============================-->
     <section id="why-us" class="wow fadeIn">
       <div class="container">
@@ -202,69 +223,11 @@
 
 
 
-    <!--==========================
-      Testimonials Section
-    ============================-->
-    <section id="testimonials" class="section-bg">
-      <div class="container">
-
-        <header class="section-header">
-          <h3 style="font-size: calc(22px + 1.0vw);">Testimonials</h3>
-        </header>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-
-            <div class="owl-carousel testimonials-carousel wow fadeInUp">
-    
-              <div class="testimonial-item">
-                <img src="img/pahul.jpg" class="testimonial-img" alt="">
-                <h3>Pahul Singh</h3>
-                <p>
-                  The Internship Fair was organized well and various profiles were offered. I got to learn a lot of things and ended up with an internship with a good stipend.
-                </p>
-              </div>
-
-              <div class="testimonial-item">
-                <img src="img/poornima.jpg" class="testimonial-img" alt="">
-                <h3>Poornima Sood</h3>
-                <p>
-                  The Internship Fair gave me a great opportunity as I gave 9 interviews and finally got my desired internship.
-                </p>
-              </div>
-    
-              <div class="testimonial-item">
-                <img src="img/nikhil.jpg" class="testimonial-img" alt="">
-                <h3>Nikhil Arora</h3>
-                <p>
-                  It was a great learning experience and I ended up grabbing 2 internship offers.   
-                </p>
-              </div>
-    
-              <div class="testimonial-item">
-                <img src="img/ayush.jpeg" class="testimonial-img" alt="">
-                <h3>Ayush</h3>
-                <p>
-                  Had a great experience. Got my first internship at the Internship Fair.
-                </p>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-
-      </div>
-    </section><!-- #testimonials -->
-
-
-
 
     <!--==========================
       Profiles Section
     ============================-->
-    <section id="services">
+    <section id="services" class="section-bg">
       <div class="container">
 
         <header class="section-header">
@@ -277,14 +240,14 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="fa fa-briefcase" style="color: #ff689b;"></i></div>
-              <h4 class="title">Business Development Sales and Marketing</a></h4>
+              <h4 class="title"><a href="https://goo.gl/HgTju8">Business Development Sales and Marketing</a></h4>
               <p class="description">Business development is the creation of long-term value for an organization from customers, markets, and relationships.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="fa fa-video-camera" style="color: #e9bf06;"></i></div>
-              <h4 class="title">Graphic Design and Video Editing</a></h4>
+              <h4 class="title"><a href="https://goo.gl/HgTju8"> Graphic Design and Video Editing</a></h4>
               <p class="description">Graphic design is the process of visual communication and problem-solving using typography, photography and illustration.</p>
             </div>
           </div>
@@ -292,7 +255,7 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="fa fa-facebook-official" style="color:#3b5998;"></i></div>
-              <h4 class="title">Social Media Marketing/ Digital Marketing</a></h4>
+              <h4 class="title"><a href="https://goo.gl/HgTju8"> Social Media Marketing/ Digital Marketing</a></h4>
               <p class="description">Social media marketing is the use of social media platforms and websites to promote a product or service.</p>
             </div>
           </div>
@@ -300,7 +263,7 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="fa fa-apple" style="color: #000;"></i></div>
-              <h4 class="title">Mobile App Developer</a></h4>
+              <h4 class="title"><a href="https://goo.gl/HgTju8"> Mobile App Developer</a></h4>
               <p class="description">
                 <ul style="position: relative; left: 20px;">
                 <li>Android Developer</li>
@@ -315,7 +278,7 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="fa fa-html5" style="color: #373434;"></i></div>
-              <h4 class="title">Web Developer</a></h4>
+              <h4 class="title"><a href="https://goo.gl/HgTju8"> Web Developer</a></h4>
               <p class="description">
                 <ul style="position: relative; left: 20px;">
                   <li>Front End Developer</li>
@@ -330,7 +293,7 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="fa fa-wordpress" style="color: #21759b;"></i></div>
-              <h4 class="title">Content Writer</a></h4>
+              <h4 class="title"><a href="https://goo.gl/HgTju8"> Content Writer</a></h4>
               <p class="description">Every website has a specific target audience and requires the most relevant content to attract business.</p>
             </div>
           </div>
@@ -338,7 +301,7 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="fa fa-user" style="color: #4680ff;"></i></div>
-              <h4 class="title">Human Resource Management</a></h4>
+              <h4 class="title"><a href="https://goo.gl/HgTju8"> Human Resource Management</a></h4>
               <p class="description">Human resource management is the strategic approach to the effective management of people in an organization, so that they help the business gain a competitive advantage.</p>
             </div>
           </div>
@@ -346,7 +309,7 @@
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon"><i class="fa fa-tasks" style="color: #1F7E40;"></i></div>
-              <h4 class="title">Operations and Management</a></h4>
+              <h4 class="title"><a href="https://goo.gl/HgTju8"> Operations and Management</a></h4>
               <p class="description">It is an area of management concerned with designing and controlling the process of production and redesigning business operations in the production of goods or services.</p>
             </div>
           </div>
@@ -354,21 +317,21 @@
             <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                 <div class="box">
                     <div class="icon"><i class="fa fa-building" style="color: #4A2A25;"></i></div>
-                    <h4 class="title">Civil and Structural Engineer</a></h4>
+                    <h4 class="title"><a href="https://goo.gl/HgTju8"> Civil and Structural Engineer</a></h4>
                     <p class="description">Structural engineering is a sub-discipline of civil engineering in which structural engineers are trained to design the 'bones and muscles' that create the form and shape of manmade structures.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                 <div class="box">
                     <div class="icon"><i class="fa fa-cogs" style="color: #767676;"></i></div>
-                    <h4 class="title">Robotics and Hardware Trainee</a></h4>
+                    <h4 class="title"><a href="https://goo.gl/HgTju8"> Robotics and Hardware Trainee</a></h4>
                     <p class="description">Robotics is an interdisciplinary branch of engineering and science that includes mechanical engineering, electronic engineering, information engineering, computer science, and others.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                 <div class="box">
                     <div class="icon"><i class="fa fa-database" style="color: #3fcdc7;"></i></div>
-                    <h4 class="title">Data Scientist and Analyst</a></h4>
+                    <h4 class="title"><a href="https://goo.gl/HgTju8"> Data Scientist and Analyst</a></h4>
                     <p class="description">Data science is a multi-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from data in various forms, both structured and unstructured, similar to data mining.</p>
                 </div>
             </div>
@@ -376,14 +339,14 @@
             <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                 <div class="box">
                     <div class="icon"><i class="fa fa-sliders" style="color: #203416;"></i></div>
-                    <h4 class="title">Mechanical and Supply Chain Engineer</a></h4>
+                    <h4 class="title"><a href="https://goo.gl/HgTju8"> Mechanical and Supply Chain Engineer</a></h4>
                     <p class="description">Mechanical Engineering is a much wider branch relating Design, Process Planning, Product planning, Manufacturing, Supply chain, Sales and Service of a product involving men, machine, method, measurement.</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                 <div class="box">
                     <div class="icon"><i class="fa fa-cog" style="color: #24507B;"></i></div>
-                    <h4 class="title">Finance and Accounting Consultant</a></h4>
+                    <h4 class="title"><a href="https://goo.gl/HgTju8"> Finance and Accounting Consultant</a></h4>
                     <p class="description">Financial accounting (or financial accountancy) is the field of accounting concerned with the summary, analysis and reporting of financial transactions pertaining to a business. This involves the preparation of financial statements available for public consumption.</p>
                 </div>
             </div>
@@ -391,7 +354,7 @@
             <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                 <div class="box">
                     <div class="icon"><i class="fa fa-gavel" style="color: #6F3227;"></i></div>
-                    <h4 class="title">Legal Consultancy Intern</a></h4>
+                    <h4 class="title"><a href="https://goo.gl/HgTju8"> Legal Consultancy Intern</a></h4>
                     <p class="description">Legal consultations are often given by attorneys who evaluate cases that come before them before accepting them. Legal Consultations are usually done in person or can be done over the phone. Many lawyers offer legal consultations for free before they accept the case.</p>
                 </div>
             </div>
@@ -399,7 +362,7 @@
             <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
                 <div class="box">
                     <div class="icon"><i class="fa fa-shopping-bag" style="color: #504C4B;"></i></div>
-                    <h4 class="title">Fashion Stylist and Wardrobe Manager</a></h4>
+                    <h4 class="title"><a href="https://goo.gl/HgTju8"> Fashion Stylist and Wardrobe Manager</a></h4>
                     <p class="description">A wardrobe stylist, also fashion stylist, is a consultant who selects the clothing for published editorial features, print or television advertising campaigns, music videos, concert performances, and any public appearances made by celebrities, models or other public figures.</p>
                 </div>
             </div>
@@ -407,6 +370,41 @@
 
       </div>
     </section><!-- #profiles -->
+
+
+    <!--==========================
+      What to expect 
+    ============================-->
+    <section id="why-us" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3 style="font-size: calc(22px + 1.0vw);">What to expect at Internship Fair @ NSUT </h3>
+        </header>
+        </div>
+
+        <div class="row counters">
+          <div class="col-lg-2 col-md-2 col-sm-6 offset-lg-3 offset-md-3 text-center">
+            <span id="count" data-toggle="counter-up" style="font-size: calc(18px + 1.8vw);">50</span>
+            <p>Companies</p>
+          </div>
+
+          <div class="col-lg-2 col-md-2 col-sm-5 offset-lg-0 offset-md-0 offset-sm-1">
+            <span id="stipend" data-toggle="counter-up" style="font-size: calc(18px + 1.8vw);">80,000</span>
+            <p>Max Stipend</p>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 offset-lg-0 offset-md-0 offset-sm-2">
+            <span id="stake" data-toggle="counter-up" style="font-size: calc(18px + 1.8vw);">55</span>
+            <p>Stipend at stake</p>
+          </div>
+        </div>
+
+        <br>
+
+        <center><a href="https://goo.gl/forms/mEo6Ta1Vo4p3368i1" class="btn-services scrollto">Grab your passes!</a></center>
+
+      </div>
+    </section>
 
 
 
@@ -726,7 +724,7 @@
 
         <div class="section-header">
           <h3 style="font-size: calc(22px + 1.0vw);">Past Recruiters</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
+          <p>Some of our recruiters from our previous edition, Stay tuned for this years recruiters</p>
         </div>
 
         <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
@@ -849,7 +847,7 @@
                 <a href="http://www.dlf.in/" target="_blank"><img src="sponsors/dlf.png" alt="DLF"/></a>
             </div>
             <div class="col-md-4" style="height: 300px;">
-              <a href="https://codingblocks.com/" target="_blank"><img src="sponsors/cb.jpg"></a>
+              <a href="https://www.microsoft.com/en-in/" target="_blank"><img src="sponsors/microsoft.jpg" alt="Microsoft"></a>
             </div>
             <div class="col-md-4">
                 <a href="https://www.ongcindia.com/" target="_blank"><img src="sponsors/ongc.jpg" alt="ONGC"/></a>
@@ -857,7 +855,7 @@
         </div>
         <div class="row no-gutters clients-wrap clearfix wow fadeInUp" style="text-align: center;">
             <div class="col-md-4">
-                <a href="https://www.microsoft.com/en-in/" target="_blank"><img src="sponsors/microsoft.jpg" alt="Microsoft"/></a>
+                <a href="https://codingblocks.com/" target="_blank"><img src="sponsors/cb.jpg" alt="Coding Blocks"/></a>
             </div>
 
             <div class="col-md-4">
@@ -965,9 +963,68 @@
     
 
     <!--==========================
+      Testimonials Section
+    ============================-->
+    <section id="testimonials" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 style="font-size: calc(22px + 1.0vw);">Testimonials</h3>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <div class="owl-carousel testimonials-carousel wow fadeInUp">
+    
+              <div class="testimonial-item">
+                <img src="img/pahul.jpg" class="testimonial-img" alt="">
+                <h3>Pahul Singh</h3>
+                <p>
+                  The Internship Fair was organized well and various profiles were offered. I got to learn a lot of things and ended up with an internship with a good stipend.
+                </p>
+              </div>
+
+              <div class="testimonial-item">
+                <img src="img/poornima.jpg" class="testimonial-img" alt="">
+                <h3>Poornima Sood</h3>
+                <p>
+                  The Internship Fair gave me a great opportunity as I gave 9 interviews and finally got my desired internship.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="img/nikhil.jpg" class="testimonial-img" alt="">
+                <h3>Nikhil Arora</h3>
+                <p>
+                  It was a great learning experience and I ended up grabbing 2 internship offers.   
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="img/ayush.jpeg" class="testimonial-img" alt="">
+                <h3>Ayush</h3>
+                <p>
+                  Had a great experience. Got my first internship at the Internship Fair.
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </section><!-- #testimonials -->
+
+
+
+
+    <!--==========================
       Contact Section
     ============================-->
-    <section id="contact" class="section-bg">
+    <section id="contact">
       <div class="container-fluid">
 
         <div class="section-header">
@@ -1037,16 +1094,16 @@
   ============================-->
   <footer id="footer">
     <div class="footer-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
 
-          <div class="col-lg-4 col-md-6 footer-info">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-10 offset-1 footer-info">
             <img src="img/iosd-white.png" alt="IOSD" style="height: 100px; width: auto; padding-bottom: 10px;" />
             <p>We at IOSD, believe in aggrandising the development purlieu in the country. We provide a well-resourced dais for developers to come together and create projects, -Have a tete-a-tete- on their ideas and learn in an adjuvant environment. We provide mentorship and collaborations on projects in both public and private sector. IOSD is the only student-organisation that is completely development oriented. </p>
           </div>
 
-          <div class="col-lg-2 col-md-6 col-xs-6 offset-lg-1 footer-links">
-            <br><br><br>
+          <div class="col-lg-2 col-md-4 col-sm-4 col-12 offset-1 footer-links">
+            <br>
             <h4>Our other events</h4>
             <ul>
               <li><a href="http://hackdtu.tech/">HackDTU</a></li>
@@ -1059,8 +1116,8 @@
           </div>
 
 
-          <div class="col-lg-4 col-md-6 col-xs-6 offset-lg-1 footer-contact">
-            <br><br><br>
+          <div class="col-lg-4 col-md-12 col-sm-12 offset-lg-0 offset-md-1 offset-sm-1 offset-1 footer-contact">
+            <br>
             <h4>Contact Us</h4>
             <p>
               F/F, 4, Amar Park, Inderlok, Delhi-110035 <br>
@@ -1069,7 +1126,7 @@
             </p>
 
             <div class="social-links">
-              <a href="https://twitter.com/iosdofficial?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a style="margin-bottom: 8px;" href="https://twitter.com/iosdofficial?lang=en" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="https://github.com/iosd" class="github"><i class="fa fa-github"></i></a>
               <a href="https://www.twitch.tv/iosdofficial" class="twitch"><i class="fa fa-twitch"></i></a>
               <a href="https://www.facebook.com/iosddtu/" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -1087,7 +1144,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><a style="color: #fff;" href="https://iosd.tech/">IOSD</a></strong>. All Rights Reserved
+        <center>&copy; Copyright <strong><a style="color: #fff;" href="https://iosd.tech/">IOSD</a></strong>. All Rights Reserved</center>
       </div>
     </div>
   </footer><!-- #footer -->
