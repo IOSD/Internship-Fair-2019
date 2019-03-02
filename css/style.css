@@ -16,9 +16,6 @@ body {
   height: 100%;
 }
 
-.wrap {
-  overflow-x: hidden !important;
-}
 
 a {
   color: #007bff;
