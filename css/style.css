@@ -13,8 +13,11 @@ body {
   background: #fff;
   color: #444;
   font-family: "Open Sans", sans-serif;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  height: 100%;
+}
+
+.wrap {
+  overflow-x: hidden !important;
 }
 
 a {
