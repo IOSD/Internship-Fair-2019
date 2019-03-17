@@ -1444,9 +1444,24 @@ h6 {
   }
 }
 
-@media (max-width: 574px) {
+@media (max-width: 575px) {
   #intro {
     padding: 100px 0 20px 0;
+  }
+  #why-us {
+    text-align: center;
+  }
+  #clients #skillzlearnn {
+    height: 160px;
+  }
+}
+@media (max-width: 768px) {
+  #team #codingblockz {
+    margin-top: 120px;
+    margin-bottom: 50px;
+  }
+  #team #microsoftt {
+    margin-top: -30px;
   }
 }
 @media screen and (min-width: 992px) {
